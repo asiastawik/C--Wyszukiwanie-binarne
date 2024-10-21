@@ -5,9 +5,9 @@ int main(int argc, char **argv)
 {
 
     int D[] = {1, 10, 123, 200, 1000, 2000};
-    int n = sizeof( D ) / sizeof( int );//sizeof(D) poda d³ugoœæ (w bajtach) tablicy D, a sizeof(int)
-    //poda d³ugoœæ w bajtach ka¿dego elementu (zmienna, sta³a) typu int.
-    //Podzielenie tych wartoœci powinno daæ liczbê elementów tablicy.
+    int n = sizeof( D ) / sizeof( int );//sizeof(D) poda dÅ‚ugoÅ›Ä‡ (w bajtach) tablicy D, a sizeof(int)
+    //poda dÅ‚ugoÅ›Ä‡ w bajtach kaÅ¼dego elementu (zmienna, staÅ‚a) typu int.
+    //Podzielenie tych wartoÅ›ci powinno daÄ‡ liczbÄ™ elementÃ³w tablicy.
 
     int x;
     printf("Podaj liczbe ktora chcesz wyszukac: ");
@@ -23,7 +23,7 @@ poczatek:
         goto koniec;
 
     else if ( D[c] > x )
-        b = c - 1; //odrzucamy praw¹ czêœæ tablicy wraz ze œrodkiem, bo ju¿ wczeœniej upewniliœmy siê, ¿e nie ma tam wartoœci szukanej
+        b = c - 1; //odrzucamy prawÄ… czÄ™Å›Ä‡ tablicy wraz ze Å›rodkiem, bo juÅ¼ wczeÅ›niej upewniliÅ›my siÄ™, Å¼e nie ma tam wartoÅ›ci szukanej
     else
         a = c + 1;
 
